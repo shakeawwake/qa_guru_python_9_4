@@ -7,7 +7,7 @@ def test_greeting():
     name = "Анна"
     age = 25
     # TODO Сформируйте нужную строку
-    output = ""
+    output = f"Привет, {name}! Тебе {age} лет."
 
     # Проверяем результат
     assert output == "Привет, Анна! Тебе 25 лет."
@@ -21,12 +21,12 @@ def test_rectangle():
     a = 10
     b = 20
     # TODO сосчитайте периметр
-    perimeter = 0
+    perimeter = 2 * (a+b)
 
     assert perimeter == 60
 
     # TODO сосчитайте площадь
-    area = 0
+    area = a * b
 
     assert area == 200
 
